@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Page</title>
+</head>
+<body>
+    <header>
+        <h1>Restaurant Reviews</h1>
+        <nav>
+            <a href="./index.html">Home</a>
+            <a href="./AddReview.html">Add Review</a>
+            <a href="./AboutPage.html">About</a>
+        </nav>
+    </header>
+    <body>
+        <section>
+            <h1> Add Review</h1>
+            <form method="post" enctype="multipart/form-data">
+                <section>
+                    <label for="fullName">Full name:</label>
+                    <input id="fullName" name="fname" type="text" required />
+                </section>
+
+                <br />
+
+                <section>
+                    <label for="email">Email:</label>
+                    <input id="email" name="email" type="email" required />
+                </section>
+
+                <br />
+
+                <section>
+                    <label for="datevisited"\>Date Visited:</label>
+                    <input id="datevisited" name="datevisited" type="date" required />
+                </section>
+
+
+                <section>
+                    <label for="rating">Rating:</label>
+                    <input id="rating" name="rating" type="number" min="1" max="5" />
+                </section>
+                <br />
+
+                <section>
+                    <label for="about">Details: </label>
+                    <textarea id="about" name="about" rows="3" cols="50"></textarea>
+                </section>
+
+                <section>
+                    <label for="picture">Photo: </label>
+                    <input id="picture" name="picture" type="file" />
+                </section>
+
+                <br />
+
+                <section>
+                    <button type="submit">Submit</button>
+                </section>
+
+        </section>
+    </body>
+    <footer>
+        <p>© 2022 Restaurant Reviews</p>
+    </footer>
+</body>
+</html>
